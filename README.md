@@ -12,7 +12,7 @@ Application for users to perform a [johari window](https://en.wikipedia.org/wiki
 
 ## Frontend
 
-Stack: React, Cypress, Typescript, styled-components
+Stack: React, Cypress, Typescript, styled-components, Vite
 
 ## Backend
 
