@@ -8,7 +8,15 @@ Application for users to perform a [johari window](https://en.wikipedia.org/wiki
 
 ## How to use
 
-...
+build
+```bash
+npm run build
+```
+
+start
+```bash
+npm run start
+```
 
 ## Frontend
 
@@ -16,4 +24,4 @@ Stack: React, Cypress, Typescript, styled-components, Vite
 
 ## Backend
 
-Will i even need one?
+Stack: Python Django
