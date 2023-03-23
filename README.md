@@ -24,4 +24,4 @@ Stack: React, Cypress, Typescript, styled-components, Vite
 
 ## Backend
 
-Stack: Python Django
+Stack: Python3, Django
