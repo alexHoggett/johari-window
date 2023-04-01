@@ -9,9 +9,9 @@ function Adjective({ text }: AdjectiveProps): JSX.Element {
   const [selected, setSelected] = useState(false)
 
   return (
-    <div>
+    <button className=''>
       { text }
-    </div>
+    </button>
   )
 }
 
