@@ -3,7 +3,7 @@
  */
 
 import { screen, render, fireEvent } from '@testing-library/react';
-import Adjective from '../Adjective';
+import Adjective from '../components/Adjective';
 
 describe('Adjective Component tests', () => {
   it('renders on the page', () => {

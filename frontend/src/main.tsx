@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Layout from './Layout'
+import Layout from './components/Layout'
 import Error from './pages/ErrorPage'
 import LoginPage from './pages/LoginPage'
 import HomePage from './pages/HomePage'
