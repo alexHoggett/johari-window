@@ -24,7 +24,7 @@ npm run start
 
 ## Frontend
 
-**Stack**: React, Cypress, Typescript, Tailwind, Vite, Jest
+**Stack**: React, Cypress, Typescript, Tailwind, Vite, Jest, Framer Motion
 
 ## Backend
 
