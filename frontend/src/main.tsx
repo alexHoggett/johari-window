@@ -5,6 +5,8 @@ import Error from './pages/ErrorPage'
 import LoginPage from './pages/LoginPage'
 import HomePage from './pages/HomePage'
 import StartPage from './pages/StartPage'
+import RegisterPage from './pages/RegisterPage'
+import ChoosePage from './pages/ChoosePage'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import './index.css'
@@ -26,6 +28,14 @@ const router = createBrowserRouter([
       {
         path: 'start',
         element: <StartPage />,
+      },
+      {
+        path: 'register',
+        element: <RegisterPage />,
+      },
+      {
+        path: 'choose',
+        element: <ChoosePage />,
       }
     ]
   }

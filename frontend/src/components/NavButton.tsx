@@ -18,4 +18,4 @@ const NavButton = ({ children, destination }: ButtonProps) => {
   )
 }
 
-export default (NavButton)
+export default NavButton;
