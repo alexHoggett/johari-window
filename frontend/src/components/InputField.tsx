@@ -9,12 +9,6 @@ interface InputFieldProps{
 const InputField = ({name, type, value, label, onChange}: InputFieldProps) => {
   return (
     <div className="ml-auto relative">
-      <label
-        htmlFor={name}
-        className="text-3xl mr-7 absolute bottom-1"
-      >
-        {label}
-          </label>
       <input
         className="bg-black border-b-2 w-96 focus:outline-none text-xl"
         name={name}
@@ -22,6 +16,12 @@ const InputField = ({name, type, value, label, onChange}: InputFieldProps) => {
         value={value} 
         onChange={onChange}  
       />
+      <label
+        htmlFor={name}
+        className="text-md absolute bottom-1 transition-all left-0 -translate-y-7"
+      >
+        {label}
+      </label>
     </div>
   )
 }
