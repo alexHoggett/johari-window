@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import descriptions from './descriptions';
 
 interface AdjectiveProps {
   text: string;
