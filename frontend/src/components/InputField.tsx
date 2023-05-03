@@ -18,7 +18,7 @@ const InputField = ({name, type, value, label, onChange}: InputFieldProps) => {
       />
       <label
         htmlFor={name}
-        className="text-md absolute bottom-1 transition-all left-0 -translate-y-7"
+        className="text-md absolute bottom-1 transition-all left-0 -translate-y-9"
       >
         {label}
       </label>
